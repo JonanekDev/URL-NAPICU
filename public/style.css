@@ -1,0 +1,26 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+body{
+    background-color: #ffb142;
+    margin: 0;
+    text-align: center;
+}
+input[type=text] {
+    border: none;
+    padding: 5px;
+    background-color: #c6862b;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 15px;
+    margin-top: 15px;
+}
+button {
+    margin-top: 15px;
+    border: none;
+    background-color: #a310e8;
+    width: 50%;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
