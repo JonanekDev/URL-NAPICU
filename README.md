@@ -26,11 +26,12 @@ MYSQL_HOST=IP serveru MySQL
 
 ```sql
 CREATE TABLE `URLNapicu` (
-    `ID` INT NOT NULL AUTO_INCREMENT,
-    `url` TEXT NOT NULL,
-    `redirect_url` TEXT NOT NULL,
-    PRIMARY KEY (`ID`)
-);
+  `ID` int(11) NOT NULL,
+  `URL` text NOT NULL,
+  `REDIRECT_URL` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+ALTER TABLE `URLNapicu`
+  ADD PRIMARY KEY (`ID`);
 ```
 
 - V případě, že chceme upravíme config.json, kde lze nastavit subdomény, které nechceme aby mohl kdokoliv registrovat
